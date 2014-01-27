@@ -148,7 +148,7 @@ void test(AcYut *bot)
 		bot->right_leg->runIK(x,y,0,0);
 		bot->updateBot();
 		usleep(16670);
-		printf("test x %lf y %lf\n",x,y);
+		printf("test x %l(ret=ftdi_usb_open_desc(&ftdic1,0x0403,0x6001,NULL,serialusb2d))f y %lf\n",x,y);
 		getchar();
 	}
 	

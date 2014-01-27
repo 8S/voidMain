@@ -681,7 +681,11 @@ void FeatureDetection::getInGreen(CamCapture &cam)
         }
     }
 
+<<<<<<< HEAD
+    cvShowImage("Red", seg_red);
+=======
     cvShowImage("RED", seg_red);
+>>>>>>> 054b8100a62780e9bc3c46ad9a8e54912e0528fe
     cvShowImage("Yellow", seg_yellow);
 
     cvReleaseImage(&histogram);
